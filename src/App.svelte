@@ -22,7 +22,7 @@
 				{name:"Recruting", content: "하나님을 성실하게 찬양드릴 분, 찬양에 은사 있는분, 소프라노, 알토, 베이스, 테너"},
 				{name:"Time", content: "주일 순모임 이후 8시~9시 30분"},
 				{name:"Location", content:"시온홀"},
-				{name:"Prayer Request", content:"Glorify가 찬양을 사모하는 100명의  찬양대가 되어서 단에서 하나님께 최고의 찬양을 드릴수있도록."},
+				{name:"Prayer Request", content:"찬양하기를 사모하는 팀원들이 모여 단에서 하나님께 최고의 찬양을 드리는 Glorify가 될 수 있도록."},
 			],
 			"videos":[
 				{name:"BABA YETU", url:"https://www.youtube.com/watch?v=7irYR9YLduc", yid: "7irYR9YLduc"},
@@ -260,6 +260,10 @@
 
 		.contents .photos li {
 			height: 180px;
+		}
+
+		.contents .photos {
+			grid-gap: 2px;
 		}
 	}
 
